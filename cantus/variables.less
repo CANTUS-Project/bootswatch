@@ -5,42 +5,42 @@
 
 // Cantus colours: RGBa codes
 // --------------------------------------------------
-@rgba-primary-0: rgba(250,238,196,1);  // brown
-@rgba-primary-1: rgba(255,253,247,1);
-@rgba-primary-2: rgba(255,249,227,1);
-@rgba-primary-3: rgba(214,197,139,1);
-@rgba-primary-4: rgba(178,158, 88,1);
+@rgba-primary-0: rgba(250, 238, 196, 1);  // brown
+@rgba-primary-1: rgba(255, 253, 247, 1);
+@rgba-primary-2: rgba(255, 249, 227, 1);
+@rgba-primary-3: rgba(214, 197, 139, 1);
+@rgba-primary-4: rgba(178, 158, 88, 1);
 
-@rgba-secondary-0: rgba(131,146,163,1);  // blue
-@rgba-secondary-1: rgba(224,228,232,1);
-@rgba-secondary-2: rgba(178,188,198,1);
-@rgba-secondary-3: rgba( 95,116,139,1);
-@rgba-secondary-4: rgba( 62, 88,116,1);
+@rgba-secondary-0: rgba(131, 146, 163, 1);  // blue
+@rgba-secondary-1: rgba(224, 228, 232, 1);
+@rgba-secondary-2: rgba(178, 188, 198, 1);
+@rgba-secondary-3: rgba(95, 116, 139, 1);
+@rgba-secondary-4: rgba(62, 88, 116, 1);
 
-@rgba-tertiary-0: rgba(152,135,169,1);  // purple
-@rgba-tertiary-1: rgba(229,226,233,1);
-@rgba-tertiary-2: rgba(191,181,202,1);
-@rgba-tertiary-3: rgba(121, 98,144,1);
-@rgba-tertiary-4: rgba( 92, 64,120,1);
+@rgba-tertiary-0: rgba(152, 135, 169, 1);  // purple
+@rgba-tertiary-1: rgba(229, 226, 233, 1);
+@rgba-tertiary-2: rgba(191, 181, 202, 1);
+@rgba-tertiary-3: rgba(121, 98, 144, 1);
+@rgba-tertiary-4: rgba(92, 64, 120, 1);
 
 
 //== Colors
 
 @gray-base:              #000;
-@gray-darker:            lighten(@gray-base, 13.5%); // #222
-@gray-dark:              #7b8a8b;   // #333
-@gray:                   #95a5a6; // #555
-@gray-light:             #b4bcc2;   // #999
-@gray-lighter:           #ecf0f1; // #eee
+@gray-darker:            lighten(@gray-base, 13.5%);
+@gray-dark:              #7b8a8b;
+@gray:                   #95a5a6;
+@gray-light:             #b4bcc2;
+@gray-lighter:           #ecf0f1;
 
 @brand-primary:         @rgba-primary-0;
 @brand-secondary:       @rgba-secondary-0;
 @brand-tertiary:        @rgba-tertiary-0;
 
-@brand-success:         #00cc66;  // TODO
-@brand-info:            #3399ff;  // TODO
-@brand-warning:         #ff9933;  // TODO
-@brand-danger:          #ff3333;  // TODO
+@brand-success:         #00cc66;
+@brand-info:            #3399ff;
+@brand-warning:         #ff9933;
+@brand-danger:          #ff3333;
 
 // NB: colours in the Cantus logo are:
 // - #faeec4 for the lighter background, and
@@ -157,11 +157,11 @@
 //** Background color used for `.table-striped`.
 @table-bg-accent:               @rgba-primary-2;
 //** Background color used for `.table-hover`.
-@table-bg-hover:                @rgba-primary-1;
+@table-bg-hover:                @rgba-primary-0;
 @table-bg-active:               @component-active-bg;
 
 //** Border color for table and cell borders.
-@table-border-color:            @rgba-primary-2;
+@table-border-color:            @rgba-primary-0;
 
 
 //== Buttons
@@ -211,7 +211,7 @@
 //** `<input>` background color
 @input-bg:                       @rgba-primary-1;
 //** `<input disabled>` background color
-@input-bg-disabled:              @gray-lighter;
+@input-bg-disabled:              @input-border;
 
 //** Text color for `<input>`s
 @input-color:                    @text-color;
@@ -247,7 +247,7 @@
 @legend-border-color:            transparent;
 
 //** Background color for textual input addons
-@input-group-addon-bg:           @gray-lighter;
+@input-group-addon-bg:           @rgba-primary-0;
 //** Border color for textual input addons
 @input-group-addon-border-color: @input-border;
 

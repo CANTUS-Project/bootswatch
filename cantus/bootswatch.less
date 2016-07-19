@@ -41,7 +41,7 @@
   border-width: 2px;
 }
 
-.btn:active {
+.btn:active, .btn.active {
   .box-shadow(none);
 }
 
@@ -120,6 +120,9 @@ table,
     border: 1px solid @table-border-color;
   }
 }
+
+.result-list-table { border: 1px solid @table-border-color; }
+
 
 // Forms ======================================================================
 
@@ -296,7 +299,7 @@ a.list-group-item {
     &.active {
       background-color: @state-warning-bg;
     }
-    
+
     &.active:hover,
     &.active:focus {
       background-color: darken(@state-warning-bg, 5%);
@@ -307,7 +310,7 @@ a.list-group-item {
     &.active {
       background-color: @state-danger-bg;
     }
-    
+
     &.active:hover,
     &.active:focus {
       background-color: darken(@state-danger-bg, 5%);
